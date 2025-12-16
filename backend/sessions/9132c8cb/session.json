@@ -1,0 +1,13 @@
+{
+  "session_id": "9132c8cb",
+  "url": "https://americanspeakercompany.com/",
+  "status": "failed",
+  "progress": 0,
+  "created_at": "2025-05-29T14:32:59.533890",
+  "current_step": "failed",
+  "current_viewport": null,
+  "error": "",
+  "results": {},
+  "message": "Analysis failed: ",
+  "updated_at": "2025-05-29T14:32:59.690112"
+}

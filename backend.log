@@ -1,0 +1,905 @@
+2025-12-15 16:06:39,057 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+/Users/talha/Desktop/Tools/responsive-website-tester/backend/main.py:352: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+2025-12-15 16:06:39,060 - __main__ - INFO - 🚀 Starting REAL analysis server...
+2025-12-15 16:06:39,060 - __main__ - INFO - ✅ Playwright is available
+INFO:     Will watch for changes in these directories: ['/Users/talha/Desktop/Tools/responsive-website-tester/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [44012] using WatchFiles
+2025-12-15 16:06:39,886 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 16:06:39,943 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [44125]
+INFO:     Waiting for application startup.
+2025-12-15 16:06:39,945 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 16:06:39,945 - main - INFO - ✅ Playwright package is available
+2025-12-15 16:06:39,946 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 16:06:41,410 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 16:06:41,410 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 16:06:41,410 - database - INFO - ✅ Database initialized successfully
+2025-12-15 16:06:41,410 - main - INFO - ✅ Database initialized successfully
+2025-12-15 16:06:41,411 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 16:09:02,721 - main - INFO - 🔍 Starting REAL analysis for: https://www.thebraidloungeacademy.com/
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 16:09:02,721 - main - INFO - 🔬 REAL analysis started for session 01649481 (https://www.thebraidloungeacademy.com/)
+2025-12-15 16:09:02,721 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://www.thebraidloungeacademy.com/
+2025-12-15 16:09:02,721 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+2025-12-15 16:09:04,638 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 16:09:04,647 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+2025-12-15 16:09:13,626 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+2025-12-15 16:09:19,079 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+2025-12-15 16:09:24,164 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 16:09:25,182 - services.website_analyzer - ERROR - Browser analysis failed for https://www.thebraidloungeacademy.com/: 'NoneType' object is not iterable
+2025-12-15 16:09:25,183 - services.website_analyzer - INFO - 🌐 Running HTTP-only analysis...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+2025-12-15 16:09:26,181 - httpx - INFO - HTTP Request: GET https://www.thebraidloungeacademy.com/ "HTTP/1.1 200 OK"
+2025-12-15 16:09:26,340 - services.ai_service - INFO - 🧠 Starting AI analysis...
+2025-12-15 16:09:29,411 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit. Falling back to mock analysis.
+2025-12-15 16:09:30,624 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 16:09:31,886 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 16:09:31,886 - main - INFO - ✅ AI analysis completed for 01649481
+2025-12-15 16:09:31,887 - main - INFO - ✅ REAL analysis completed for https://www.thebraidloungeacademy.com/ (01649481)
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /results/01649481 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /results/01649481 HTTP/1.1" 200 OK
+2025-12-15 16:10:09,429 - main - INFO - 🔍 Starting REAL analysis for: https://www.thebraidloungeacademy.com/
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 16:10:09,429 - main - INFO - 🔬 REAL analysis started for session 58861787 (https://www.thebraidloungeacademy.com/)
+2025-12-15 16:10:09,430 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://www.thebraidloungeacademy.com/
+2025-12-15 16:10:09,430 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+2025-12-15 16:10:11,283 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 16:10:11,291 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /placeholders/http_only.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+2025-12-15 16:10:44,380 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+2025-12-15 16:10:49,090 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+2025-12-15 16:10:54,014 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 16:10:54,988 - services.website_analyzer - ERROR - Browser analysis failed for https://www.thebraidloungeacademy.com/: 'NoneType' object is not iterable
+2025-12-15 16:10:54,988 - services.website_analyzer - INFO - 🌐 Running HTTP-only analysis...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+2025-12-15 16:10:55,835 - httpx - INFO - HTTP Request: GET https://www.thebraidloungeacademy.com/ "HTTP/1.1 200 OK"
+2025-12-15 16:10:55,945 - services.ai_service - INFO - 🧠 Starting AI analysis...
+2025-12-15 16:10:57,864 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit. Falling back to mock analysis.
+2025-12-15 16:10:58,649 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 16:10:59,869 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 16:10:59,869 - main - INFO - ✅ AI analysis completed for 58861787
+2025-12-15 16:10:59,870 - main - INFO - ✅ REAL analysis completed for https://www.thebraidloungeacademy.com/ (58861787)
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+2025-12-15 16:10:59,875 - main - INFO - 🔍 Starting REAL analysis for: https://www.thebraidloungeacademy.com/
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 16:10:59,875 - main - INFO - 🔬 REAL analysis started for session e825f516 (https://www.thebraidloungeacademy.com/)
+2025-12-15 16:10:59,876 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://www.thebraidloungeacademy.com/
+2025-12-15 16:10:59,876 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/58861787 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:01,516 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 16:11:01,525 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /results/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /results/58861787 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:09,053 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:13,576 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:18,328 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:19,272 - services.website_analyzer - ERROR - Browser analysis failed for https://www.thebraidloungeacademy.com/: 'NoneType' object is not iterable
+2025-12-15 16:11:19,273 - services.website_analyzer - INFO - 🌐 Running HTTP-only analysis...
+2025-12-15 16:11:20,146 - httpx - INFO - HTTP Request: GET https://www.thebraidloungeacademy.com/ "HTTP/1.1 200 OK"
+2025-12-15 16:11:20,248 - services.ai_service - INFO - 🧠 Starting AI analysis...
+2025-12-15 16:11:21,601 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit. Falling back to mock analysis.
+2025-12-15 16:11:22,872 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 16:11:24,126 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 16:11:24,127 - main - INFO - ✅ AI analysis completed for e825f516
+2025-12-15 16:11:24,128 - main - INFO - ✅ REAL analysis completed for https://www.thebraidloungeacademy.com/ (e825f516)
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /status/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /results/e825f516 HTTP/1.1" 200 OK
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /results/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:56,868 - main - INFO - 📄 Report generated for session e825f516: sessions/report_e825f516.txt
+INFO:     2407:aa80:314:e893:292d:af23:9625:64fc:0 - "GET /download/e825f516 HTTP/1.1" 200 OK
+2025-12-15 16:11:56,937 - watchfiles.main - INFO - 1 change detected
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /results/58861787 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /results/58861787 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49439 - "OPTIONS /results/d63fbb42 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49439 - "GET /results/d63fbb42 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49439 - "GET /results/d63fbb42 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49441 - "OPTIONS /analyze HTTP/1.1" 200 OK
+2025-12-15 17:09:45,183 - main - INFO - 🔍 Starting REAL analysis for: https://stripe.com
+INFO:     127.0.0.1:49441 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:09:45,184 - main - INFO - 🔬 REAL analysis started for session df40b50a (https://stripe.com)
+2025-12-15 17:09:45,184 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://stripe.com
+2025-12-15 17:09:45,184 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     127.0.0.1:49441 - "OPTIONS /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "OPTIONS /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:09:46,910 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:09:46,921 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:09:53,338 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:09:57,125 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:10:02,529 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:10:06,408 - services.website_analyzer - ERROR - Browser analysis failed for https://stripe.com: 'NoneType' object is not iterable
+2025-12-15 17:10:06,409 - services.website_analyzer - INFO - 🌐 Running HTTP-only analysis...
+2025-12-15 17:10:06,868 - httpx - INFO - HTTP Request: GET https://stripe.com "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:10:08,385 - services.ai_service - INFO - 🧠 Starting AI analysis...
+2025-12-15 17:10:10,252 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit. Falling back to mock analysis.
+2025-12-15 17:10:11,465 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_alt_text
+2025-12-15 17:10:12,751 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_alt_text
+2025-12-15 17:10:12,751 - main - INFO - ✅ AI analysis completed for df40b50a
+2025-12-15 17:10:12,752 - main - INFO - ✅ REAL analysis completed for https://stripe.com (df40b50a)
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /status/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "OPTIONS /results/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49447 - "GET /results/df40b50a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49447 - "GET /results/df40b50a HTTP/1.1" 200 OK
+2025-12-15 17:13:52,995 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [44125]
+2025-12-15 17:13:56,230 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 17:13:56,567 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 17:13:56,637 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [47874]
+INFO:     Waiting for application startup.
+2025-12-15 17:13:56,639 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 17:13:56,639 - main - INFO - ✅ Playwright package is available
+2025-12-15 17:13:56,639 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 17:13:58,179 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 17:13:58,179 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 17:13:58,180 - database - INFO - ✅ Database initialized successfully
+2025-12-15 17:13:58,180 - main - INFO - ✅ Database initialized successfully
+2025-12-15 17:13:58,180 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+INFO:     127.0.0.1:49624 - "OPTIONS /analyze HTTP/1.1" 200 OK
+2025-12-15 17:23:49,189 - main - INFO - 🔍 Starting REAL analysis for: https://www.thebraidloungeacademy.com/
+INFO:     127.0.0.1:49624 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:23:49,189 - main - INFO - 🔬 REAL analysis started for session c7d4c034 (https://www.thebraidloungeacademy.com/)
+2025-12-15 17:23:49,189 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://www.thebraidloungeacademy.com/
+2025-12-15 17:23:49,189 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     127.0.0.1:49624 - "OPTIONS /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "OPTIONS /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:23:50,755 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:23:50,771 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:05,324 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:10,537 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:15,744 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 17:24:16,733 - services.website_analyzer - ERROR - Browser analysis failed for https://www.thebraidloungeacademy.com/: 'NoneType' object is not iterable
+2025-12-15 17:24:16,734 - services.website_analyzer - INFO - 🌐 Running HTTP-only analysis...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:17,656 - httpx - INFO - HTTP Request: GET https://www.thebraidloungeacademy.com/ "HTTP/1.1 200 OK"
+2025-12-15 17:24:17,746 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:20,560 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:22,847 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:27,131 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:28,435 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:30,708 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:34,993 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:36,261 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:38,532 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:42,808 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 17:24:42,808 - main - INFO - ✅ AI analysis completed for c7d4c034
+2025-12-15 17:24:42,809 - main - INFO - ✅ REAL analysis completed for https://www.thebraidloungeacademy.com/ (c7d4c034)
+INFO:     127.0.0.1:49624 - "GET /status/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49624 - "OPTIONS /results/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49628 - "GET /results/c7d4c034 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49628 - "GET /results/c7d4c034 HTTP/1.1" 200 OK
+2025-12-15 17:24:58,130 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [47874]
+2025-12-15 17:25:01,453 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 17:25:01,834 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 17:25:01,908 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [48475]
+INFO:     Waiting for application startup.
+2025-12-15 17:25:01,911 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 17:25:01,911 - main - INFO - ✅ Playwright package is available
+2025-12-15 17:25:01,911 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 17:25:03,595 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 17:25:03,595 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 17:25:03,596 - database - INFO - ✅ Database initialized successfully
+2025-12-15 17:25:03,596 - main - INFO - ✅ Database initialized successfully
+2025-12-15 17:25:03,596 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 17:29:04,410 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/website_analyzer.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48475]
+2025-12-15 17:29:05,479 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 17:29:05,828 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 17:29:05,892 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [48698]
+INFO:     Waiting for application startup.
+2025-12-15 17:29:05,895 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 17:29:05,895 - main - INFO - ✅ Playwright package is available
+2025-12-15 17:29:05,895 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 17:29:07,521 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 17:29:07,521 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 17:29:07,522 - database - INFO - ✅ Database initialized successfully
+2025-12-15 17:29:07,522 - main - INFO - ✅ Database initialized successfully
+2025-12-15 17:29:07,522 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 17:29:49,733 - main - INFO - 🔍 Starting REAL analysis for: https://www.thebraidloungeacademy.com/
+INFO:     127.0.0.1:49905 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:29:49,735 - main - INFO - 🔬 REAL analysis started for session 09d25aef (https://www.thebraidloungeacademy.com/)
+2025-12-15 17:29:49,735 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://www.thebraidloungeacademy.com/
+2025-12-15 17:29:49,735 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     127.0.0.1:49905 - "OPTIONS /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49907 - "OPTIONS /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:29:51,425 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:29:51,435 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:29:59,563 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:04,131 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:09,174 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:10,240 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:13,078 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:15,362 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:19,653 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:20,926 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:23,221 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+2025-12-15 17:30:27,495 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 17:30:27,495 - main - INFO - ✅ AI analysis completed for 09d25aef
+2025-12-15 17:30:27,497 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/09d25aef_mobile.png
+2025-12-15 17:30:27,498 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/09d25aef_tablet.png
+2025-12-15 17:30:27,503 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/09d25aef_desktop.png
+2025-12-15 17:30:27,505 - main - INFO - ✅ REAL analysis completed for https://www.thebraidloungeacademy.com/ (09d25aef)
+2025-12-15 17:30:27,590 - watchfiles.main - INFO - 3 changes detected
+INFO:     127.0.0.1:49905 - "GET /status/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "OPTIONS /results/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49909 - "OPTIONS /results/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /results/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49905 - "GET /results/09d25aef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50016 - "GET /screenshots/09d25aef_mobile.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50018 - "GET /screenshots/09d25aef_desktop.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50017 - "GET /screenshots/09d25aef_tablet.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50286 - "GET /screenshots/09d25aef_mobile.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50287 - "GET /screenshots/09d25aef_desktop.png HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50289 - "GET /screenshots/09d25aef_tablet.png HTTP/1.1" 304 Not Modified
+2025-12-15 17:33:53,447 - main - INFO - 🔍 Starting REAL analysis for: https://www.thebraidloungeacademy.com/
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:33:53,447 - main - INFO - 🔬 REAL analysis started for session 5cddedf7 (https://www.thebraidloungeacademy.com/)
+2025-12-15 17:33:53,448 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://www.thebraidloungeacademy.com/
+2025-12-15 17:33:53,448 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:33:55,169 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:33:55,176 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:02,988 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:07,884 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:13,976 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 17:34:15,003 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:16,905 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:19,114 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:23,320 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:24,734 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:27,011 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+2025-12-15 17:34:31,290 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 17:34:31,291 - main - INFO - ✅ AI analysis completed for 5cddedf7
+2025-12-15 17:34:31,292 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/5cddedf7_mobile.png
+2025-12-15 17:34:31,293 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/5cddedf7_tablet.png
+2025-12-15 17:34:31,297 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/5cddedf7_desktop.png
+2025-12-15 17:34:31,298 - main - INFO - ✅ REAL analysis completed for https://www.thebraidloungeacademy.com/ (5cddedf7)
+2025-12-15 17:34:31,387 - watchfiles.main - INFO - 3 changes detected
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /results/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /results/5cddedf7 HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/5cddedf7_mobile.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/5cddedf7_tablet.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/5cddedf7_desktop.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /results/e825f516 HTTP/1.1" 404 Not Found
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /results/e825f516 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51043 - "OPTIONS /analyze HTTP/1.1" 200 OK
+2025-12-15 17:35:53,985 - main - INFO - 🔍 Starting REAL analysis for: https://libertyaiconsulting.com/
+INFO:     127.0.0.1:51043 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:35:53,985 - main - INFO - 🔬 REAL analysis started for session 39a1865e (https://libertyaiconsulting.com/)
+2025-12-15 17:35:53,985 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://libertyaiconsulting.com/
+2025-12-15 17:35:53,986 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     127.0.0.1:51043 - "OPTIONS /status/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:35:56,263 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:35:56,278 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:01,716 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:03,741 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:06,069 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:07,334 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:09,304 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:11,589 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:16,383 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:18,085 - main - INFO - 🔍 Starting REAL analysis for: https://libertyaiconsulting.com/
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:36:18,085 - main - INFO - 🔬 REAL analysis started for session e7a1c7de (https://libertyaiconsulting.com/)
+2025-12-15 17:36:18,085 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://libertyaiconsulting.com/
+2025-12-15 17:36:18,085 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:19,654 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:36:19,661 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:24,462 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:26,592 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:28,676 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 17:36:29,590 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+2025-12-15 17:36:29,906 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:31,172 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+2025-12-15 17:36:31,861 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:34,559 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:36,145 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_description
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:37,443 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:38,829 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+2025-12-15 17:36:39,711 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:40,109 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:42,385 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:43,989 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:45,273 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:46,670 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for horizontal_scroll
+2025-12-15 17:36:47,543 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+2025-12-15 17:36:47,991 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+2025-12-15 17:36:50,258 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:51,818 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_alt_text
+2025-12-15 17:36:51,818 - main - INFO - ✅ AI analysis completed for 39a1865e
+2025-12-15 17:36:51,823 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/39a1865e_mobile.png
+2025-12-15 17:36:51,831 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/39a1865e_tablet.png
+2025-12-15 17:36:51,837 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/39a1865e_desktop.png
+2025-12-15 17:36:51,839 - main - INFO - ✅ REAL analysis completed for https://libertyaiconsulting.com/ (39a1865e)
+2025-12-15 17:36:51,941 - watchfiles.main - INFO - 3 changes detected
+INFO:     127.0.0.1:51045 - "GET /status/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "OPTIONS /results/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /results/39a1865e HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51045 - "GET /results/39a1865e HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:55,672 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_description
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:57,000 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:36:59,269 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:37:12,523 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:37:14,713 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+2025-12-15 17:37:18,899 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_alt_text
+2025-12-15 17:37:18,900 - main - INFO - ✅ AI analysis completed for e7a1c7de
+2025-12-15 17:37:18,911 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/e7a1c7de_mobile.png
+2025-12-15 17:37:18,919 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/e7a1c7de_tablet.png
+2025-12-15 17:37:18,924 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/e7a1c7de_desktop.png
+2025-12-15 17:37:18,925 - main - INFO - ✅ REAL analysis completed for https://libertyaiconsulting.com/ (e7a1c7de)
+2025-12-15 17:37:19,012 - watchfiles.main - INFO - 3 changes detected
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /results/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /results/e7a1c7de HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/e7a1c7de_mobile.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/e7a1c7de_tablet.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/e7a1c7de_desktop.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/e7a1c7de_mobile.png HTTP/1.1" 304 Not Modified
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/e7a1c7de_tablet.png HTTP/1.1" 304 Not Modified
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /screenshots/e7a1c7de_desktop.png HTTP/1.1" 304 Not Modified
+2025-12-15 17:38:53,335 - main - INFO - 🔍 Starting REAL analysis for: https://tailwindcss.com
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 17:38:53,335 - main - INFO - 🔬 REAL analysis started for session b20ff7fe (https://tailwindcss.com)
+2025-12-15 17:38:53,335 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://tailwindcss.com
+2025-12-15 17:38:53,335 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/b20ff7fe HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/b20ff7fe HTTP/1.1" 200 OK
+2025-12-15 17:38:54,917 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 17:38:54,926 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/b20ff7fe HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/b20ff7fe HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:29c1:ed6e:9a8a:8511:0 - "GET /status/b20ff7fe HTTP/1.1" 200 OK
+2025-12-15 17:39:01,412 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+2025-12-15 17:39:04,687 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+2025-12-15 17:39:08,358 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 17:39:10,434 - services.ai_service - INFO - 🧠 Starting AI analysis...
+2025-12-15 17:39:12,375 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+2025-12-15 17:39:14,561 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+2025-12-15 17:39:18,747 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+2025-12-15 17:39:20,089 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+2025-12-15 17:39:22,379 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+2025-12-15 17:39:26,661 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_alt_text
+2025-12-15 17:39:26,661 - main - INFO - ✅ AI analysis completed for b20ff7fe
+2025-12-15 17:39:26,663 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/b20ff7fe_mobile.png
+2025-12-15 17:39:26,666 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/b20ff7fe_tablet.png
+2025-12-15 17:39:26,668 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/b20ff7fe_desktop.png
+2025-12-15 17:39:26,669 - main - INFO - ✅ REAL analysis completed for https://tailwindcss.com (b20ff7fe)
+2025-12-15 17:39:26,754 - watchfiles.main - INFO - 3 changes detected
+INFO:     127.0.0.1:55372 - "GET /screenshots/39a1865e_tablet.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55370 - "GET /screenshots/39a1865e_mobile.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55373 - "GET /screenshots/39a1865e_desktop.png HTTP/1.1" 200 OK
+2025-12-15 17:57:32,874 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48698]
+2025-12-15 17:57:36,006 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 17:57:36,351 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 17:57:36,418 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [50350]
+INFO:     Waiting for application startup.
+2025-12-15 17:57:36,422 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 17:57:36,422 - main - INFO - ✅ Playwright package is available
+2025-12-15 17:57:36,422 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 17:57:38,151 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 17:57:38,152 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 17:57:38,153 - database - INFO - ✅ Database initialized successfully
+2025-12-15 17:57:38,153 - main - INFO - ✅ Database initialized successfully
+2025-12-15 17:57:38,153 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 17:58:17,000 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/website_analyzer.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50350]
+2025-12-15 17:58:17,765 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 17:58:17,945 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 17:58:17,989 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [50406]
+INFO:     Waiting for application startup.
+2025-12-15 17:58:17,991 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 17:58:17,991 - main - INFO - ✅ Playwright package is available
+2025-12-15 17:58:17,992 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 17:58:19,076 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 17:58:19,077 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 17:58:19,077 - database - INFO - ✅ Database initialized successfully
+2025-12-15 17:58:19,077 - main - INFO - ✅ Database initialized successfully
+2025-12-15 17:58:19,077 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 17:58:29,573 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/website_analyzer.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50406]
+2025-12-15 17:58:30,281 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 17:58:30,479 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 17:58:30,531 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [50433]
+INFO:     Waiting for application startup.
+2025-12-15 17:58:30,534 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 17:58:30,534 - main - INFO - ✅ Playwright package is available
+2025-12-15 17:58:30,534 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 17:58:31,667 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 17:58:31,667 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 17:58:31,668 - database - INFO - ✅ Database initialized successfully
+2025-12-15 17:58:31,668 - main - INFO - ✅ Database initialized successfully
+2025-12-15 17:58:31,668 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 18:01:17,758 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/website_analyzer.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50433]
+2025-12-15 18:01:18,565 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 18:01:18,783 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 18:01:18,827 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [50934]
+INFO:     Waiting for application startup.
+2025-12-15 18:01:18,829 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 18:01:18,829 - main - INFO - ✅ Playwright package is available
+2025-12-15 18:01:18,829 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 18:01:19,982 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 18:01:19,982 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 18:01:19,983 - database - INFO - ✅ Database initialized successfully
+2025-12-15 18:01:19,983 - main - INFO - ✅ Database initialized successfully
+2025-12-15 18:01:19,983 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 18:02:05,167 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/website_analyzer.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50934]
+2025-12-15 18:02:05,989 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 18:02:06,140 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 18:02:06,183 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [50997]
+INFO:     Waiting for application startup.
+2025-12-15 18:02:06,185 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 18:02:06,186 - main - INFO - ✅ Playwright package is available
+2025-12-15 18:02:06,186 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 18:02:07,265 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 18:02:07,265 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 18:02:07,266 - database - INFO - ✅ Database initialized successfully
+2025-12-15 18:02:07,266 - main - INFO - ✅ Database initialized successfully
+2025-12-15 18:02:07,266 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 18:02:30,261 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50997]
+2025-12-15 18:02:31,029 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 18:02:31,268 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 18:02:31,324 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [51035]
+INFO:     Waiting for application startup.
+2025-12-15 18:02:31,327 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 18:02:31,327 - main - INFO - ✅ Playwright package is available
+2025-12-15 18:02:31,327 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 18:02:32,573 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 18:02:32,573 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 18:02:32,574 - database - INFO - ✅ Database initialized successfully
+2025-12-15 18:02:32,574 - main - INFO - ✅ Database initialized successfully
+2025-12-15 18:02:32,574 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 18:02:57,740 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [51035]
+2025-12-15 18:02:58,624 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 18:02:58,928 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 18:02:58,990 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [51072]
+INFO:     Waiting for application startup.
+2025-12-15 18:02:58,993 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 18:02:58,993 - main - INFO - ✅ Playwright package is available
+2025-12-15 18:02:58,994 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 18:03:00,498 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 18:03:00,498 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 18:03:00,499 - database - INFO - ✅ Database initialized successfully
+2025-12-15 18:03:00,499 - main - INFO - ✅ Database initialized successfully
+2025-12-15 18:03:00,499 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+2025-12-15 18:03:16,636 - watchfiles.main - INFO - 1 change detected
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [51072]
+2025-12-15 18:03:17,887 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+2025-12-15 18:03:17,957 - services.ai_service - INFO - ✅ Real Gemini AI initialized and ready
+INFO:     Started server process [51104]
+INFO:     Waiting for application startup.
+2025-12-15 18:03:17,960 - main - INFO - 🚀 Starting REAL Responsive Website Testing Tool...
+2025-12-15 18:03:17,960 - main - INFO - ✅ Playwright package is available
+2025-12-15 18:03:17,961 - main - INFO - 🔧 Testing Playwright browser launch...
+2025-12-15 18:03:18,045 - watchfiles.main - INFO - 3 changes detected
+2025-12-15 18:03:19,448 - main - INFO - ✅ Playwright browser test successful on Windows
+2025-12-15 18:03:19,449 - main - INFO - ✅ Playwright browser verification successful
+2025-12-15 18:03:19,450 - database - INFO - ✅ Database initialized successfully
+2025-12-15 18:03:19,450 - main - INFO - ✅ Database initialized successfully
+2025-12-15 18:03:19,450 - main - INFO - ✅ Application startup complete - REAL ANALYSIS READY!
+INFO:     Application startup complete.
+INFO:     127.0.0.1:61235 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61395 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61395 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61436 - "OPTIONS /analyze HTTP/1.1" 200 OK
+2025-12-15 18:11:31,420 - main - INFO - 🔍 Starting REAL analysis for: https://libertyaiconsulting.com/
+INFO:     127.0.0.1:61436 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 18:11:31,420 - main - INFO - 🔬 REAL analysis started for session 940adde3 (https://libertyaiconsulting.com/)
+2025-12-15 18:11:31,420 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://libertyaiconsulting.com/
+2025-12-15 18:11:31,420 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     127.0.0.1:61436 - "OPTIONS /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61438 - "OPTIONS /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:33,635 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 18:11:33,644 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:39,000 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile Small...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:41,101 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:43,112 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:45,664 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet Landscape...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:48,294 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 18:11:49,122 - services.website_analyzer - INFO - 📱 Using True Emulation for Desktop Large...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:51,663 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:54,622 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:11:56,946 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:01,220 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:02,490 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:04,764 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:09,037 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for horizontal_scroll
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:10,304 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:12,581 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:16,844 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for horizontal_scroll
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:18,148 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:20,436 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:24,721 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_description
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:25,993 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:28,260 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:32,541 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:33,840 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:36,125 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+2025-12-15 18:12:40,401 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_alt_text
+2025-12-15 18:12:40,402 - main - INFO - ✅ AI analysis completed for 940adde3
+2025-12-15 18:12:40,406 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/940adde3_mobile_small.png
+2025-12-15 18:12:40,413 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/940adde3_mobile.png
+2025-12-15 18:12:40,422 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/940adde3_tablet.png
+2025-12-15 18:12:40,441 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/940adde3_tablet_landscape.png
+2025-12-15 18:12:40,449 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/940adde3_desktop.png
+2025-12-15 18:12:40,454 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/940adde3_desktop_large.png
+2025-12-15 18:12:40,456 - main - INFO - ✅ REAL analysis completed for https://libertyaiconsulting.com/ (940adde3)
+2025-12-15 18:12:40,519 - watchfiles.main - INFO - 6 changes detected
+INFO:     127.0.0.1:61436 - "GET /status/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "OPTIONS /results/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /results/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61514 - "GET /results/940adde3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61531 - "GET /screenshots/940adde3_desktop.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61523 - "GET /screenshots/940adde3_mobile_small.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61532 - "GET /screenshots/940adde3_desktop_large.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61527 - "GET /screenshots/940adde3_tablet.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61525 - "GET /screenshots/940adde3_mobile.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /screenshots/940adde3_tablet_landscape.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61537 - "OPTIONS /guide HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61537 - "POST /guide HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61537 - "POST /guide HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61539 - "POST /guide HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61555 - "POST /guide HTTP/1.1" 404 Not Found
+2025-12-15 18:14:17,565 - main - INFO - 🔍 Starting REAL analysis for: https://transitionally-jonnick-barbera.ngrok-free.dev/
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "POST /analyze HTTP/1.1" 200 OK
+2025-12-15 18:14:17,565 - main - INFO - 🔬 REAL analysis started for session 82ca1d7f (https://transitionally-jonnick-barbera.ngrok-free.dev/)
+2025-12-15 18:14:17,565 - services.website_analyzer - INFO - 🔍 Starting Windows-compatible analysis for: https://transitionally-jonnick-barbera.ngrok-free.dev/
+2025-12-15 18:14:17,565 - services.website_analyzer - INFO - 🔧 Testing browser with Webkit on non-Windows platform...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:19,348 - services.website_analyzer - INFO - ✅ Webkit browser test successful
+2025-12-15 18:14:19,355 - services.website_analyzer - INFO - ✅ Using browser-based analysis
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:24,486 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile Small...
+2025-12-15 18:14:26,083 - services.website_analyzer - INFO - 📱 Using True Emulation for Mobile...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:27,655 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:29,132 - services.website_analyzer - INFO - 📱 Using True Emulation for Tablet Landscape...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:30,625 - services.website_analyzer - INFO - 💻 Using standard viewport resize for Desktop...
+2025-12-15 18:14:31,248 - services.website_analyzer - INFO - 📱 Using True Emulation for Desktop Large...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:32,963 - services.ai_service - INFO - 🧠 Starting AI analysis...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:34,819 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 2s... (Attempt 1/3)
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:37,095 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429). Retrying in 4s... (Attempt 2/3)
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:41,376 - services.ai_service - WARNING - ⚠️ Gemini API Rate Limit (429) hit after retries. Falling back to mock analysis.
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:42,649 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 2s...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:44,931 - services.ai_service - WARNING - ⚠️ Rate Limit on fix suggestion. Retrying in 4s...
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+2025-12-15 18:14:49,195 - services.ai_service - WARNING - ⚠️ Gemini Rate Limit (429) on fix suggestion for missing_h1
+2025-12-15 18:14:49,195 - main - INFO - ✅ AI analysis completed for 82ca1d7f
+2025-12-15 18:14:49,196 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/82ca1d7f_mobile_small.png
+2025-12-15 18:14:49,198 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/82ca1d7f_mobile.png
+2025-12-15 18:14:49,199 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/82ca1d7f_tablet.png
+2025-12-15 18:14:49,201 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/82ca1d7f_tablet_landscape.png
+2025-12-15 18:14:49,202 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/82ca1d7f_desktop.png
+2025-12-15 18:14:49,204 - utils.real_screenshot_service - INFO - ✅ Screenshot saved: screenshots/82ca1d7f_desktop_large.png
+2025-12-15 18:14:49,205 - main - INFO - ✅ REAL analysis completed for https://transitionally-jonnick-barbera.ngrok-free.dev/ (82ca1d7f)
+2025-12-15 18:14:49,280 - watchfiles.main - INFO - 6 changes detected
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /status/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /results/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /results/82ca1d7f HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /screenshots/82ca1d7f_desktop.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /screenshots/82ca1d7f_mobile_small.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /screenshots/82ca1d7f_tablet_landscape.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /screenshots/82ca1d7f_desktop_large.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /screenshots/82ca1d7f_mobile.png HTTP/1.1" 200 OK
+INFO:     2407:d000:8:3717:c5cc:4e03:a7ae:b949:0 - "GET /screenshots/82ca1d7f_tablet.png HTTP/1.1" 200 OK

@@ -1,0 +1,168 @@
+
+> responsive-website-tester-frontend@1.0.0 dev
+> vite
+
+
+  VITE v6.4.1  ready in 267 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.18.20:3000/
+5:57:31 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css
+5:57:31 PM [vite] Internal server error: /Users/talha/Desktop/Tools/responsive-website-tester/frontend/src/pages/Results.tsx: Expected corresponding JSX closing tag for <div>. (289:18)
+
+  287 |                         </p>
+  288 |                       </div>
+> 289 |                   </GlassCard>
+      |                   ^
+  290 |                 </div>
+  291 |
+  292 |                 {/* Analysis & Quick Stats */}
+  Plugin: vite:react-babel
+  File: /Users/talha/Desktop/Tools/responsive-website-tester/frontend/src/pages/Results.tsx:289:18
+  294|                    {/* AI Insights Card */}
+  295|                    {results.ai_analysis && !results.ai_analysis.error && (
+  296|                      <GlassCard className="border-l-4 border-l-purple-500 bg-purple-50/40 dark:bg-purple-900/10">
+     |                               ^
+  297|                        <div className="flex items-start gap-4">
+  298|                          <div className="p-3 bg-white/50 dark:bg-slate-800/50 rounded-xl">
+      at constructor (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:360:19)
+      at TypeScriptParserMixin.raise (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:6613:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4733:16)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4755:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4765:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10992:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10977:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10957:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9779:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10810:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10815:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10792:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10745:21)
+      at /Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9717:39
+      at TypeScriptParserMixin.tryParse (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:6922:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9717:18)
+      at /Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10714:39
+      at TypeScriptParserMixin.allowInAnd (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:12334:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10714:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:11591:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:11242:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4770:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10992:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10977:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10957:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9779:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10810:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10897:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10892:21)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10858:27)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9320:18)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10864:21)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9320:18)
+      at TypeScriptParserMixin.parseExprOps (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10819:17)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10792:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10745:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9728:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10698:23)
+      at /Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10694:39
+      at TypeScriptParserMixin.allowInAnd (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:12334:12)
+      at TypeScriptParserMixin.parseExpression (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10694:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4638:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4717:36)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4755:17)
+5:57:41 PM [vite] (client) Pre-transform error: /Users/talha/Desktop/Tools/responsive-website-tester/frontend/src/pages/Results.tsx: Expected corresponding JSX closing tag for <div>. (289:18)
+
+  287 |                         </p>
+  288 |                       </div>
+> 289 |                   </GlassCard>
+      |                   ^
+  290 |                 </div>
+  291 |
+  292 |                 {/* Analysis & Quick Stats */}
+  Plugin: vite:react-babel
+  File: /Users/talha/Desktop/Tools/responsive-website-tester/frontend/src/pages/Results.tsx:289:18
+  294|                    {/* AI Insights Card */}
+  295|                    {results.ai_analysis && !results.ai_analysis.error && (
+  296|                      <GlassCard className="border-l-4 border-l-purple-500 bg-purple-50/40 dark:bg-purple-900/10">
+     |                               ^
+  297|                        <div className="flex items-start gap-4">
+  298|                          <div className="p-3 bg-white/50 dark:bg-slate-800/50 rounded-xl">
+5:57:41 PM [vite] Internal server error: /Users/talha/Desktop/Tools/responsive-website-tester/frontend/src/pages/Results.tsx: Expected corresponding JSX closing tag for <div>. (289:18)
+
+  287 |                         </p>
+  288 |                       </div>
+> 289 |                   </GlassCard>
+      |                   ^
+  290 |                 </div>
+  291 |
+  292 |                 {/* Analysis & Quick Stats */}
+  Plugin: vite:react-babel
+  File: /Users/talha/Desktop/Tools/responsive-website-tester/frontend/src/pages/Results.tsx:289:18
+  294|                    {/* AI Insights Card */}
+  295|                    {results.ai_analysis && !results.ai_analysis.error && (
+  296|                      <GlassCard className="border-l-4 border-l-purple-500 bg-purple-50/40 dark:bg-purple-900/10">
+     |                               ^
+  297|                        <div className="flex items-start gap-4">
+  298|                          <div className="p-3 bg-white/50 dark:bg-slate-800/50 rounded-xl">
+      at constructor (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:360:19)
+      at TypeScriptParserMixin.raise (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:6613:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4733:16)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4755:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4765:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10992:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10977:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10957:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9779:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10810:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10815:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10792:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10745:21)
+      at /Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9717:39
+      at TypeScriptParserMixin.tryParse (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:6922:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9717:18)
+      at /Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10714:39
+      at TypeScriptParserMixin.allowInAnd (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:12334:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10714:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:11591:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:11242:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4770:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10992:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10977:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10957:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9779:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10810:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10897:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10892:21)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10858:27)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9320:18)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10864:21)
+      at TypeScriptParserMixin.parseExprOp (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9320:18)
+      at TypeScriptParserMixin.parseExprOps (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10819:17)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10792:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10745:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:9728:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10698:23)
+      at /Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10694:39
+      at TypeScriptParserMixin.allowInAnd (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:12334:12)
+      at TypeScriptParserMixin.parseExpression (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:10694:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4638:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4717:36)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4704:32)
+      at TypeScriptParserMixin.jsxParseElement (/Users/talha/Desktop/Tools/responsive-website-tester/frontend/node_modules/@babel/parser/lib/index.js:4755:17)
+5:58:12 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css
+6:00:55 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css
+6:04:23 PM [vite] (client) hmr update /src/index.css, /src/pages/Landing.tsx, /src/pages/Testing.tsx, /src/pages/Results.tsx
+6:05:52 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css
+6:06:23 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css
+6:07:03 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css
+6:07:27 PM [vite] (client) hmr update /src/pages/Results.tsx, /src/index.css

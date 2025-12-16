@@ -1,0 +1,13 @@
+{
+  "session_id": "dfaf4bd2",
+  "url": "http://cookiewhipped.com/",
+  "status": "failed",
+  "progress": 0,
+  "created_at": "2025-05-29T19:54:34.123398",
+  "current_step": "failed",
+  "current_viewport": null,
+  "error": "",
+  "results": {},
+  "message": "Analysis failed: ",
+  "updated_at": "2025-05-29T19:54:34.228033"
+}
