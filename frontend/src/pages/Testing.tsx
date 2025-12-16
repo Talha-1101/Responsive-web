@@ -371,7 +371,7 @@ const Testing: React.FC = () => {
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                       </div>
                       <span className="text-sm font-semibold text-slate-700 dark:text-slate-300 uppercase tracking-wide">
-                        Live Status
+                        Live status
                       </span>
                     </div>
                     <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
